@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - DoDa Agency</title>
+  
+  <!-- Meta tags for SEO -->
+  <meta name="description" content="Esplora il portfolio di progetti completati da DoDa Agency, che opera con un sistema operativo AI-native che rivoluziona l'interazione uomo-macchina.">
+  <meta name="keywords" content="DoDa Agency, rabbitOS, portfolio, progetti completati, AI, intelligenza artificiale, Rabbit R1, LAM, Large Action Model">
+  <meta name="author" content="DoDa Agency Team">
+  <meta property="og:title" content="Portfolio - DoDa Agency">
+  <meta property="og:description" content="Esplora il portfolio di progetti completati da DoDa Agency, che opera con un sistema operativo AI-native che rivoluziona l'interazione uomo-macchina.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://doda-agency.github.io/agency-website/portfolio">
+  <meta property="og:image" content="../assets/img/logo/logo.png">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="../assets/img/logo/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="../assets/img/logo/logo.png">
+  
+  <!-- Tabler Core CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/core@latest/dist/css/tabler.min.css">
+  <!-- Tabler Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="../assets/css/custom.css">
+</head>
+<body>
+  <div class="page">
+    <!-- Header -->
+    <header class="navbar navbar-expand-md navbar-light d-print-none">
+      <div class="container-xl">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-menu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <h1 class="navbar-brand navbar-brand-autodark d-none-navbar-horizontal pe-0 pe-md-3">
+          <a href="../index.html">
+            <img src="../assets/img/logo/logo.png" alt="DoDa Agency" class="navbar-brand-image">
+          </a>
+        </h1>
+        <div class="navbar-nav flex-row order-md-last"><a href="https://www.hostinger.com/it/referral?REFERRALCODE=RABBITWORLD" target="_blank">Hai un invito dall'agenzia web!</a>
+          <div class="nav-item dropdown d-none d-md-flex me-3">
+            <a href="https://www.hostinger.com/it/referral?REFERRALCODE=RABBITWORLD" class="nav-link px-0" target="_blank" rel="noopener">
+              <i class="ti ti-bell"></i>
+              <span class="badge bg-red"></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+    
+    <!-- Navbar -->
+    <div class="navbar-expand-md">
+      <div class="collapse navbar-collapse" id="navbar-menu">
+        <div class="navbar navbar-light">
+          <div class="container-xl">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">
+                  <span class="nav-link-icon d-md-none d-lg-inline-block">
+                    <i class="ti ti-home"></i>
+                  </span>
+                  <span class="nav-link-title">Home</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">
+                  <span class="nav-link-icon d-md-none d-lg-inline-block">
+                    <i class="ti ti-users"></i>
+                  </span>
+                  <span class="nav-link-title">Chi siamo</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="services.html">
+                  <span class="nav-link-icon d-md-none d-lg-inline-block">
+                    <i class="ti ti-tool"></i>
+                  </span>
+                  <span class="nav-link-title">Servizi</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="current-projects.html">
+                  <span class="nav-link-icon d-md-none d-lg-inline-block">
+                    <i class="ti ti-code"></i>
+                  </span>
+                  <span class="nav-link-title">Progetti in corso</span>
+                </a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="portfolio.html">
+                  <span class="nav-link-icon d-md-none d-lg-inline-block">
+                    <i class="ti ti-briefcase"></i>
+                  </span>
+                  <span class="nav-link-title">Portfolio</span>
+                </a>
+              </li>
+              <!--li class="nav-item">
+                <a class="nav-link" href="blog.html">
+                  <span class="nav-link-icon d-md-none d-lg-inline-block">
+                    <i class="ti ti-pencil"></i>
+                  </span>
+                  <span class="nav-link-title">Blog</span>
+                </a>
+              </li-->
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <br/>
+
+    <!-- Page header -->
+    <div class="page-header d-print-none">
+      <div class="container-xl">
+        <div class="row g-2 align-items-center">
+          <div class="col">
+            <h2 class="page-title">
+              Portfolio
+            </h2>
+            <div class="text-muted mt-1">I nostri progetti completati</div>
+          </div>
+          <div class="col-auto ms-auto">
+            <div class="btn-list">
+              <span class="d-none d-sm-inline">
+                <div class="input-icon">
+                  <input type="text" class="form-control" placeholder="Cerca progetti..." id="portfolio-search">
+                  <span class="input-icon-addon">
+                    <i class="ti ti-search"></i>
+                  </span>
+                </div>
+              </span>
+              <div class="dropdown">
+                <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                  <i class="ti ti-filter me-1"></i>
+                  Filtra
+                </button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item filter-btn" href="#" data-filter="all">Tutti i progetti</a>
+                  <a class="dropdown-item filter-btn" href="#" data-filter="hardware">Hardware</a>
+                  <a class="dropdown-item filter-btn" href="#" data-filter="software">Software</a>
+                  <a class="dropdown-item filter-btn" href="#" data-filter="research">Ricerca</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Page body -->
+    <div class="page-body">
+      <div class="container-xl">
+        <!-- Portfolio Overview -->
+        <div class="row mb-4">
+          <div class="col-12">
+            <div class="card">
+              <div class="card-body">
+                <h3 class="card-title">Il nostro portfolio</h3>
+                <p>
+                  Esplora i progetti completati da DoDa Agency, che spaziano dallo sviluppo di modelli AI avanzati alla creazione di interfacce utente innovative. Ogni progetto rappresenta un passo avanti nella nostra missione di rivoluzionare l'interazione uomo-macchina.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Portfolio Grid -->
+        <div class="row row-cards" id="featured-projects">
+          <!-- Portfolio items will be loaded dynamically from JSON -->
+        </div>
+        
+        <!-- Case Studies -->
+        <div class="row mt-4">
+          <div class="col-12">
+            <div class="card">
+              <div class="card-header">
+                <h3 class="card-title">Case Studies</h3>
+              </div>
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-md-6 mb-4">
+                    <div class="card">
+                      <div class="card-img-top img-responsive img-responsive-21by9" style="background-image: url(../assets/img/projects/case-study-1.jpg)"></div>
+                      <div class="card-body">
+                        <h4 class="card-title">Implementazione LAM in ambiente aziendale</h4>
+                        <p class="text-muted">
+                          Studio di caso sull'implementazione del Large Action Model in un'azienda di servizi finanziari, con risultati di automazione e miglioramento dell'efficienza.
+                        </p>
+                        <div class="d-flex align-items-center mt-4">
+                          <div>
+                            <div class="font-weight-medium">Risultati chiave:</div>
+                            <div class="text-muted">
+                              <ul class="list-unstyled mt-1">
+                                <li>• 45% di riduzione del tempo per attività ripetitive</li>
+                                <li>• 30% di aumento della soddisfazione dei clienti</li>
+                                <li>• ROI positivo in 6 mesi</li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card-footer">
+                        <a href="#" class="btn btn-primary">Leggi il case study completo</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 mb-4">
+                    <div class="card">
+                      <div class="card-img-top img-responsive img-responsive-21by9" style="background-image: url(../assets/img/projects/case-study-2.jpg)"></div>
+                      <div class="card-body">
+                        <h4 class="card-title">Interfaccia vocale per servizi sanitari</h4>
+                        <p class="text-muted">
+                          Implementazione di un'interfaccia vocale basata su rabbitOS per migliorare l'accessibilità dei servizi sanitari per pazienti con mobilità ridotta.
+                        </p>
+                        <div class="d-flex align-items-center mt-4">
+                          <div>
+                            <div class="font-weight-medium">Risultati chiave:</div>
+                            <div class="text-muted">
+                              <ul class="list-unstyled mt-1">
+                                <li>• Accesso semplificato per pazienti con disabilità</li>
+                                <li>• 60% di riduzione nei tempi di attesa</li>
+                                <li>• 40% di aumento nell'aderenza alle terapie</li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card-footer">
+                        <a href="#" class="btn btn-primary">Leggi il case study completo</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Testimonials -->
+        <div class="row mt-4">
+          <div class="col-12">
+            <div class="card">
+              <div class="card-header">
+                <h3 class="card-title">Testimonianze dei clienti</h3>
+              </div>
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-md-4 mb-4">
+                    <div class="card">
+                      <div class="card-body">
+                        <div class="d-flex mb-3">
+                          <div class="me-3">
+                            <span class="avatar avatar-md">LM</span>
+                          </div>
+                          <div>
+                            <h4 class="m-0">Luca M.</h4>
+                            <div class="text-muted">CIO, TechnoItalia</div>
+                          </div>
+                        </div>
+                        <p class="text-muted">
+                          "L'implementazione della AI ha trasformato completamente il nostro approccio all'automazione dei processi. La capacità del sistema di apprendere dalle interazioni degli utenti ha portato a miglioramenti significativi nell'efficienza operativa."
+                        </p>
+                        <div class="d-flex text-warning">
+                          <i class="ti ti-star-filled"></i>
+                          <i class="ti ti-star-filled"></i>
+                          <i class="ti ti-star-filled"></i>
+                          <i class="ti ti-star-filled"></i>
+                          <i class="ti ti-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 mb-4">
+                    <div class="card">
+                      <div class="card-body">
+                        <div class="d-flex mb-3">
+                          <div class="me-3">
+                            <span class="avatar avatar-md">SF</span>
+                          </div>
+                          <div>
+                            <h4 class="m-0">Sofia F.</h4>
+                            <div class="text-muted">CEO, InnovaSalute</div>
+                          </div>
+                        </div>
+                        <p class="text-muted">
+                          "Il progetto di interfaccia vocale sviluppato da DoDa Agency ha rivoluzionato il modo in cui i nostri pazienti interagiscono con i servizi sanitari. La facilità d'uso e la precisione del sistema hanno superato le nostre aspettative."
+                        </p>
+                        <div class="d-flex text-warning">
+                          <i class="ti ti-star-filled"></i>
+                          <i class="ti ti-star-filled"></i>
+                          <i class="ti ti-star-filled"></i>
+                          <i class="ti ti-star-filled"></i>
+                          <i class="ti ti-star-filled"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 mb-4">
+                    <div class="card">
+                      <div class="card-body">
+                        <div class="d-flex mb-3">
+                          <div class="me-3">
+                            <span class="avatar avatar-md">MR</span>
+                          </div>
+                          <div>
+                            <h4 class="m-0">Marco R.</h4>
+                            <div class="text-muted">CTO, DigitalFuture</div>
+                          </div>
+                        </div>
+                        <p class="text-muted">
+                          "La collaborazione con DoDa Agency ci ha permesso di implementare soluzioni AI all'avanguardia che hanno trasformato la nostra produttività. Il team è stato eccezionale nel comprendere le nostre esigenze e nel fornire soluzioni su misura."
+                        </p>
+                        <div class="d-flex text-warning">
+                          <i class="ti ti-star-filled"></i>
+                          <i class="ti ti-star-filled"></i>
+                          <i class="ti ti-star-filled"></i>
+                          <i class="ti ti-star-filled"></i>
+                          <i class="ti ti-star-filled"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Stats -->
+        <div class="row mt-4">
+          <div class="col-12">
+            <div class="card">
+              <div class="card-body">
+                <div class="row text-center">
+                  <div class="col-md-3 mb-3 mb-md-0">
+                    <div class="h1 m-0">25+</div>
+                    <div class="text-muted">Progetti completati</div>
+                  </div>
+                  <div class="col-md-3 mb-3 mb-md-0">
+                    <div class="h1 m-0">15+</div>
+                    <div class="text-muted">Clienti soddisfatti</div>
+                  </div>
+                  <div class="col-md-3 mb-3 mb-md-0">
+                    <div class="h1 m-0">98%</div>
+                    <div class="text-muted">Tasso di soddisfazione</div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="h1 m-0">5+</div>
+                    <div class="text-muted">Anni di esperienza</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Contact Form -->
+        <div class="row mt-4">
+          <div class="col-12">
+            <div class="card">
+              <div class="card-header">
+                <h3 class="card-title" id="contact-form">Contattaci</h3>
+              </div>
+              <div class="card-body">
+                <form>
+                  <div class="row">
+                    <div class="col-md-6 mb-3">
+                      <label class="form-label">Nome</label>
+                      <input type="text" class="form-control" placeholder="Il tuo nome" required>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                      <label class="form-label">Email</label>
+                      <input type="email" class="form-control" placeholder="La tua email" required>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                      <label class="form-label">Azienda</label>
+                      <input type="text" class="form-control" placeholder="Nome azienda">
+                    </div>
+                    <div class="col-md-6 mb-3">
+                      <label class="form-label">Oggetto</label>
+                      <input type="text" class="form-control" placeholder="Oggetto del messaggio" required>
+                    </div>
+                    <div class="col-12 mb-3">
+                      <label class="form-label">Messaggio</label>
+                      <textarea class="form-control" rows="5" placeholder="Il tuo messaggio" required></textarea>
+                    </div>
+                    <div class="col-12">
+                      <button type="submit" class="btn btn-primary">Invia messaggio</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Footer -->
+    <footer class="footer footer-transparent d-print-none mt-4">
+      <div class="container-xl">
+        <div class="row text-center align-items-center flex-row-reverse">
+          <div class="col-lg-auto ms-lg-auto">
+            <ul class="list-inline list-inline-dots mb-0">
+              <li class="list-inline-item">
+                <a href="https://github.com/doda-agency" target="_blank" class="link-secondary" rel="noopener">
+                  <i class="ti ti-brand-github"></i> Contribuisci su GitHub
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="../index.html" class="link-secondary">Home</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="about.html" class="link-secondary">Chi siamo</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="services.html" class="link-secondary">Servizi</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#contact-form" class="link-secondary">Contatti</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-lg-auto mt-3 mt-lg-0">
+            <ul class="list-inline list-inline-dots mb-0">
+              <li class="list-inline-item">
+                Copyright &copy; 2025 DoDa Agency
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="link-secondary">Privacy Policy</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="link-secondary">Termini di Servizio</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  
+  <!-- Tabler Core JS -->
+  <script src="https://cdn.jsdelivr.net/npm/@tabler/core@latest/dist/js/tabler.min.js"></script>
+  <!-- Custom JS -->
+  <script src="../assets/js/custom.js"></script>
+</body>
+</html>
