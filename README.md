@@ -40,11 +40,15 @@ agency-website/
 │   │   ├── hero/                # Hero section images
 │   │   ├── projects/            # Project screenshots and images
 │   │   ├── products/            # Product images
+│   │   ├── partners/            # Partners member photos
 │   │   ├── team/                # Team member photos
 │   │   └── logo/                # Logo files and favicon
 │   └── fonts/                   # Font files if needed
 ├── pages/                       # Individual page content
 │   ├── about.html               # Chi siamo (About Us) page
+│   ├── about-you.html           # Chi siamo (About Us) for you page
+│   ├── about-rabbit.html        # Chi siamo (About Us) Rabbit Inc. page
+│   ├── about-partner.html       # Chi siamo (About Us) Partner page
 │   ├── services.html            # Servizi (Services) page
 │   ├── current-projects.html    # Progetti in corso (Current Projects) page
 │   └── portfolio.html           # Portfolio page
