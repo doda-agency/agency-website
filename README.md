@@ -1,5 +1,7 @@
 # Agency Website
 
+[![Website](https://img.shields.io/website?url=https%3A%2F%2Fdoda-agency.github.io%2Fagency-website)]([https://doda-agency.github.io/agency-website]) ![Static Badge](https://img.shields.io/badge/Content_and_concept_hours-5h-yellow) ![Static Badge](https://img.shields.io/badge/AI_hours-1h-orange) ![Static Badge](https://img.shields.io/badge/DoDa_hours-4h-rebeccapurple)
+
 A professional website built using the Tabler template framework to showcase Agency projects with a web-agency style approach.
 
 ## Project Overview
@@ -139,7 +141,7 @@ Regular maintenance tasks include:
 - [Tabler](https://tabler.io/) - UI framework
 - [Bootstrap](https://getbootstrap.com/) - CSS framework
 - [Tabler Icons](https://tabler-icons.io/) - Icon set
-- [DoDa Agency Team](https://github.com/doda-agency) - Content and concept
+- [DoDa Agency Team](https://github.com/orgs/DoDa-e-Agency/people) - Content and concept
 
 ## License
 
