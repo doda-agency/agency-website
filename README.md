@@ -1,4 +1,4 @@
-# Agency Website
+# DoDa e-Agency Website Wireframe
 
 [![Website](https://img.shields.io/website?url=https%3A%2F%2Fdoda-agency.github.io%2Fagency-website)](https://doda-agency.github.io/agency-website) ![Static Badge](https://img.shields.io/badge/Content_and_concept_hours-5h-yellow) ![Static Badge](https://img.shields.io/badge/AI_hours-1h-orange) ![Static Badge](https://img.shields.io/badge/DoDa_hours-4h-rebeccapurple)
 
